@@ -4,8 +4,6 @@
 
 This is a modular Flask application that connects to a MySQL database and performs basic CRUD operations on store sales data. It supports both GET and POST endpoints and returns query results in JSON, list, and pandas DataFrame formats.
 
----
-
 ## 🚀 Features
 
 - Modular Flask architecture
@@ -18,8 +16,6 @@ This is a modular Flask application that connects to a MySQL database and perfor
   - List
   - Pandas DataFrame
 
----
-
 ## 🧰 Technologies Used
 
 - Python 3.10
@@ -27,8 +23,6 @@ This is a modular Flask application that connects to a MySQL database and perfor
 - MySQL
 - MySQL Connector
 - Pandas
-
----
 
 ## 🗃️ Database Setup
 
@@ -44,8 +38,6 @@ CREATE TABLE IF NOT EXISTS Sales (
 );
 ```
 
----
-
 ## 🔌 API Usage
 
 ### ✅ GET `/sales`
@@ -57,17 +49,6 @@ CREATE TABLE IF NOT EXISTS Sales (
 ```
 GET /sales?start_date=2023-01-01&end_date=2023-01-31
 ```
-
-**Returns:**
-```json
-{
-  "json": [...],
-  "list": [...],
-  "dataframe": [...]
-}
-```
-
----
 
 ### ✅ POST `/sales`
 
@@ -85,8 +66,6 @@ GET /sales?start_date=2023-01-01&end_date=2023-01-31
 ```json
 { "message": "New sale record added successfully" }
 ```
-
----
 
 ## 📦 Setup Instructions
 
@@ -106,12 +85,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
----
-
 ## 📧 Contact
 
 For questions or project review, contact:  
 **imelendez@cbac.com**
-
----
-
