@@ -4,6 +4,11 @@ import pandas as pd
 
 app = Flask(__name__)
 
+# Home route to confirm API is running
+@app.route('/')
+def home():
+    return "\U0001F389 Store Sales API is running!"
+
 # Helper function to query the database
 def run_query(query, params=None):
     conn = mysql.connector.connect(
