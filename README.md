@@ -84,8 +84,3 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-
-## 📧 Contact
-
-For questions or project review, contact:  
-**imelendez@cbac.com**
